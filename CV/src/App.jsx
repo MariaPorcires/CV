@@ -1,11 +1,11 @@
 
 import './App.css'
-import { RouterProvider, createBrowserProvider } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './views/Home/Home';
 import About from './views/About/About';
 
 
-const router = createBrowserProvider([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />
@@ -22,9 +22,9 @@ function App() {
   
 
   return (
-    <>
-     
-    </>
+    <div className='App'>
+     <RouterProvider router={ router } />
+    </div>
   )
 }
 

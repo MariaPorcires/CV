@@ -1,0 +1,35 @@
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+   
+    
+}
+
+.header__photo {
+    width: 350px;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border: 2px solid;
+    border-color: #D4A223;
+}
+
+.header__title {
+    font-size: 55px;
+    color: lightgrey;
+    position: absolute;
+    right: 27rem;
+    top: 19rem;
+}
+
+.header__desc {
+    color: lightgrey;
+    position: absolute;
+    right: 36rem;
+    top: 24rem;
+}
+
